@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220725120600">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js?_v=20220725120600" referrerpolicy="no-referrer"></script>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12?_v=20220725120600"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js?_v=20220725120600"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<a href="#" class="header__logo"><img src="img/logo.svg" alt="#">Portfolio</a>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">About me</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Portfolio</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+
+						</ul>
+					</nav>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<div class="page__home home nav-item">
+					<div class="home__inform">
+						<h1 class="home__title">Hello,</h1>
+						<p class="home__sub-title"></p>
+						<p class="home__text">I've been doing front-end development for a year now. Do you need a turnkey website? Then contact me</p>
+						<button class="home__contact-me">Contact me</button>
+					</div>
+					<div data-da=".home__inform , 768.98 , 3" class="home__img">
+						<picture><source srcset="img/me.webp" type="image/webp"><img src="img/me.png" alt=""></picture>
+					</div>
+				</div>
+				<div class="page__about about nav-item">
+					<div class="about__skils">
+						<div class="about__skil">
+							<div class="about__img">
+								<img src="img/frontend.svg" alt="">
+							</div>
+							<div class="about__p">Frontend</div>
+						</div>
+						<div class="about__skil">
+							<div class="about__img">
+								<img src="img/backend.svg" alt="">
+							</div>
+							<div class="about__p">backend</div>
+						</div>
+						<div class="about__skil">
+							<div class="about__img">
+								<img src="img/UI.svg" alt="">
+							</div>
+							<div class="about__p">UX/UI Design</div>
+						</div>
+					</div>
+					<div class="about__chart">
+						<canvas id="myChart"></canvas>
+					</div>
+				</div>
+				<div class="page__projects projects nav-item">
+					<div class="projects__title">PORTFOLIO</div>
+					<!-- Оболочка слайдера -->
+					<div class="projects__slider swiper">
+						<!-- Двигающееся часть слайдера -->
+
+						<div class="projects__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="projects__slide swiper-slide">
+								<div class="swiper-slide__img">
+									<picture><source srcset="img/card1.webp" type="image/webp"><img src="img/card1.png" alt="#"></picture>
+								</div>
+								<div class="swiper-slide__description">
+									<h1>
+										Landing Soul Sols
+									</h1>
+									<ul>
+
+										<h1>Technologies used : </h1>
+										<li>HTML</li>
+										<li>SCSS</li>
+										<li>JQUERRY</li>
+										<li>GULP</li>
+										<li>SWIPER</li>
+									</ul>
+								</div>
+								<div class="swiper-slide__buttons">
+									<a href="https://github.com/batyanoskow/Souls" class="swiper-slide__Git">Git</a>
+									<a href="https://batyanoskow.github.io/Souls" class="swiper-slide__Site">View</a>
+								</div>
+							</div>
+
+							<div class="projects__slide swiper-slide">
+								<div class="swiper-slide__img">
+									<picture><source srcset="img/card8.webp" type="image/webp"><img src="img/card8.jpg" alt="#"></picture>
+								</div>
+								<div class="swiper-slide__description">
+									<h1>
+										Weather APP
+									</h1>
+									<ul>
+
+										<h1>Technologies used : </h1>
+										<li>HTML</li>
+										<li>SCSS</li>
+										<li>JQUERRY</li>
+										<li>GULP</li>
+										<li>API</li>
+									</ul>
+								</div>
+								<div class="swiper-slide__buttons">
+									<a href="https://github.com/batyanoskow/Souls" class="swiper-slide__Git">Git</a>
+									<a href="https://batyanoskow.github.io/Souls" class="swiper-slide__Site">View</a>
+								</div>
+							</div>
+							<div class="projects__slide swiper-slide">
+								<div class="swiper-slide__img">
+									<picture><source srcset="img/card2.webp" type="image/webp"><img src="img/card2.png" alt="#"></picture>
+								</div>
+								<div class="swiper-slide__description">
+									<h1>
+										Landing DashBoard
+									</h1>
+									<ul>
+
+										<h1>Technologies used : </h1>
+										<li>HTML</li>
+										<li>SCSS</li>
+										<li>JQUERRY</li>
+										<li>GULP</li>
+										<li>API</li>
+									</ul>
+								</div>
+								<div class="swiper-slide__buttons">
+									<a href="https://github.com/batyanoskow/Dashboard" class="swiper-slide__Git">Git</a>
+									<a href="https://batyanoskow.github.io/Dashboard" class="swiper-slide__Site">View</a>
+								</div>
+							</div>
+							<div class="projects__slide swiper-slide">
+								<div class="swiper-slide__img">
+									<picture><source srcset="img/card3.webp" type="image/webp"><img src="img/card3.png" alt="#"></picture>
+								</div>
+								<div class="swiper-slide__description">
+									<h1>
+										Landing E-Mentor
+									</h1>
+
+									<ul>
+										<h1>Technologies used : </h1>
+										<li>HTML</li>
+										<li>SCSS</li>
+										<li>JS</li>
+
+									</ul>
+
+								</div>
+								<div class="swiper-slide__buttons">
+									<a href="https://github.com/batyanoskow/E-Mentor1.1" class="swiper-slide__Git">Git</a>
+									<a href="https://batyanoskow.github.io/E-Mentor1.1" class="swiper-slide__Site">View</a>
+								</div>
+							</div>
+							<div class="projects__slide swiper-slide">
+								<div class="swiper-slide__img">
+									<picture><source srcset="img/card4.webp" type="image/webp"><img src="img/card4.png" alt="#"></picture>
+								</div>
+								<div class="swiper-slide__description">
+									<h1>
+										Landing NetBook
+									</h1>
+									<p>
+									<ul>
+										<h1>Technologies used : </h1>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>JS</li>
+
+									</ul>
+									</p>
+								</div>
+								<div class="swiper-slide__buttons">
+									<a href="https://github.com/batyanoskow/NetBook" class="swiper-slide__Git">Git</a>
+									<a href="https://batyanoskow.github.io/NetBook" class="swiper-slide__Site">View</a>
+								</div>
+							</div>
+							<div class="projects__slide swiper-slide">
+								<div class="swiper-slide__img">
+									<picture><source srcset="img/card5.webp" type="image/webp"><img src="img/card5.png" alt="#"></picture>
+								</div>
+								<div class="swiper-slide__description">
+									<h1>
+										Landing Coffee
+									</h1>
+
+
+									<ul>
+										<h1>Technologies used : </h1>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>BOOTSTRAP</li>
+
+									</ul>
+
+
+								</div>
+								<div class="swiper-slide__buttons">
+									<a href="https://github.com/batyanoskow/CoffeStyle" class="swiper-slide__Git">Git</a>
+									<a href="https://batyanoskow.github.io/CoffeStyle" class="swiper-slide__Site">View</a>
+								</div>
+							</div>
+							<div class="projects__slide swiper-slide">
+								<div class="swiper-slide__img">
+									<picture><source srcset="img/card6.webp" type="image/webp"><img src="img/card6.png" alt="#"></picture>
+								</div>
+								<div class="swiper-slide__description">
+									<h1>
+										Landing Lsles VPN
+									</h1>
+
+									<ul>
+										<h1>Technologies used : </h1>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>BOOTSTRAP</li>
+
+									</ul>
+
+								</div>
+								<div class="swiper-slide__buttons">
+									<a href="https://github.com/batyanoskow/Site1" class="swiper-slide__Git">Git</a>
+									<a href="https://batyanoskow.github.io/Site1" class="swiper-slide__Site">View</a>
+								</div>
+							</div>
+							<div class="projects__slide swiper-slide">
+								<div class="swiper-slide__img">
+									<picture><source srcset="img/card7.webp" type="image/webp"><img src="img/card7.png" alt="#"></picture>
+								</div>
+								<div class="swiper-slide__description">
+									<h1>
+										First Landing
+									</h1>
+
+									<ul>
+										<h1>Technologies used : </h1>
+										<li>HTML</li>
+										<li>CSS</li>
+									</ul>
+
+								</div>
+								<div class="swiper-slide__buttons">
+									<a href="https://github.com/batyanoskow/site" class="swiper-slide__Git">Git</a>
+									<a href="https://batyanoskow.github.io/site" class="swiper-slide__Site">View</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper__navigation">
+							<!-- Если нужна навигация (влево/вправо) -->
+							<button type="button" class="swiper-button-prev"></button>
+							<button type="button" class="swiper-button-next"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer contacts nav-item">
+			<div class="footer__container">
+				<div class="footer__navigation">
+					<div class="footer__item nav">Home</div>
+					<div class="footer__item nav">About me</div>
+					<div class="footer__item nav">Portfolio</div>
+					<div class="footer__item nav">Contact</div>
+				</div>
+				<div class="footer__contacts">
+					<div class="footer__item">Contact:</div>
+					<div class="footer__item">Email:<a href="mailto:lyubchenkoarsen@gmail.com"> lyubchenkoarsen@gmail.com</a></div>
+					<div class="footer__item">Inst: <a href="https://www.instagram.com/lyubchenko_arsen">lyubchenko_arsen</a></div>
+					<div class="footer__item">Telegram: <a href="https://t.me/Batyanoskow">@Batyanoskow</a></div>
+				</div>
+				<div class="footer__logotype">
+					<a href="" class="footer__logo"><img src="img/logo.svg" alt="">Portfolio</a>
+					<button class="footer__to-header">
+						<img src="img/arrow-top.svg" alt="">
+					</button>
+					<div class="footer__item">Copyright © 2022, Notitanic</div>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20220725120600"></script>
+
+	<script>
+		movingText();
+
+		function movingText() {
+			var typed = new Typed('.home__sub-title', {
+				strings: ["I'M LYUBCHENKO ARSEN.", "I'M YOUNG WEB DEVELOPER."],
+				typeSpeed: 70,
+			});
+
+		}
+	</script>
+	<script>
+		const labels = [
+			"html",
+			"scss",
+			"jquerry",
+			"js",
+		];
+		const data = {
+			labels: labels,
+			datasets: [{
+				label: 'My Skills',
+				data: [80, 65, 50, 55],
+				backgroundColor: [
+					'rgba(255, 99, 132, 0.2)',
+					'rgba(255, 159, 64, 0.2)',
+					'rgba(255, 205, 86, 0.2)',
+					'rgba(75, 192, 192, 0.2)',
+				],
+				borderColor: [
+					'rgb(255, 99, 132)',
+					'rgb(255, 159, 64)',
+					'rgb(255, 205, 86)',
+					'rgb(75, 192, 192)',
+				],
+				borderWidth: 2
+			}]
+		};
+		const config = {
+			type: 'bar',
+			data: data,
+			options: {
+				scales: {
+					y: {
+						beginAtZero: true
+					}
+				}
+			},
+		};
+		const myChart = new Chart(
+			document.getElementById('myChart'),
+			config
+		);
+	</script>
+
+</body>
+
+</html>
